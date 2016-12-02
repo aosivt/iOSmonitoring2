@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C139B7B11B3A654D00C716AB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139B7B01B3A654D00C716AB /* File.swift */; };
+		C139B7B31B3A65CE00C716AB /* connectForWSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139B7B21B3A65CE00C716AB /* connectForWSA.swift */; };
+		C139B7B51B3A696A00C716AB /* var_cl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139B7B41B3A696A00C716AB /* var_cl.swift */; };
 		C14528C11B25AA6B00138E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14528C01B25AA6B00138E1D /* AppDelegate.swift */; };
 		C14528C31B25AA6B00138E1D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14528C21B25AA6B00138E1D /* MasterViewController.swift */; };
 		C14528C51B25AA6B00138E1D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14528C41B25AA6B00138E1D /* DetailViewController.swift */; };
@@ -14,6 +17,7 @@
 		C14528CA1B25AA6B00138E1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14528C91B25AA6B00138E1D /* Images.xcassets */; };
 		C14528CD1B25AA6B00138E1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14528CB1B25AA6B00138E1D /* LaunchScreen.xib */; };
 		C14528D91B25AA6B00138E1D /* iOSmonitoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14528D81B25AA6B00138E1D /* iOSmonitoringTests.swift */; };
+		C14528E41B26E40400138E1D /* Auth_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14528E31B26E40400138E1D /* Auth_Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C139B7B01B3A654D00C716AB /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C139B7B21B3A65CE00C716AB /* connectForWSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = connectForWSA.swift; sourceTree = "<group>"; };
+		C139B7B41B3A696A00C716AB /* var_cl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = var_cl.swift; sourceTree = "<group>"; };
 		C14528BB1B25AA6B00138E1D /* iOSmonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSmonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14528BF1B25AA6B00138E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14528C01B25AA6B00138E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 		C14528D21B25AA6B00138E1D /* iOSmonitoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSmonitoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14528D71B25AA6B00138E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14528D81B25AA6B00138E1D /* iOSmonitoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSmonitoringTests.swift; sourceTree = "<group>"; };
+		C14528E31B26E40400138E1D /* Auth_Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth_Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		C14528BD1B25AA6B00138E1D /* iOSmonitoring */ = {
 			isa = PBXGroup;
 			children = (
+				C14528E21B26E3DB00138E1D /* dev_cl */,
 				C14528C01B25AA6B00138E1D /* AppDelegate.swift */,
 				C14528C21B25AA6B00138E1D /* MasterViewController.swift */,
 				C14528C41B25AA6B00138E1D /* DetailViewController.swift */,
@@ -113,6 +122,17 @@
 				C14528D71B25AA6B00138E1D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C14528E21B26E3DB00138E1D /* dev_cl */ = {
+			isa = PBXGroup;
+			children = (
+				C14528E31B26E40400138E1D /* Auth_Message.swift */,
+				C139B7B01B3A654D00C716AB /* File.swift */,
+				C139B7B21B3A65CE00C716AB /* connectForWSA.swift */,
+				C139B7B41B3A696A00C716AB /* var_cl.swift */,
+			);
+			name = dev_cl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C139B7B11B3A654D00C716AB /* File.swift in Sources */,
 				C14528C51B25AA6B00138E1D /* DetailViewController.swift in Sources */,
+				C139B7B31B3A65CE00C716AB /* connectForWSA.swift in Sources */,
 				C14528C31B25AA6B00138E1D /* MasterViewController.swift in Sources */,
 				C14528C11B25AA6B00138E1D /* AppDelegate.swift in Sources */,
+				C139B7B51B3A696A00C716AB /* var_cl.swift in Sources */,
+				C14528E41B26E40400138E1D /* Auth_Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +365,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSmonitoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -351,8 +377,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSmonitoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +437,7 @@
 				C14528DE1B25AA6B00138E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C14528DF1B25AA6B00138E1D /* Build configuration list for PBXNativeTarget "iOSmonitoringTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				C14528E11B25AA6B00138E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
